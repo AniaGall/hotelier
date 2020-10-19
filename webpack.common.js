@@ -83,10 +83,40 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/another.html",
+      template: "./src/pages/definicje.html",
       inject: true,
-      chunks: ["index", "another"],
-      filename: "another.html",
+      chunks: ["index", "definicje"],
+      filename: "definicje.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/galeria.html",
+      inject: true,
+      chunks: ["index", "galeria"],
+      filename: "galeria.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/np-dok.html",
+      inject: true,
+      chunks: ["index", "np-dok"],
+      filename: "np-dok.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/testy.html",
+      inject: true,
+      chunks: ["index", "testy"],
+      filename: "testy.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/wzory-doc.html",
+      inject: true,
+      chunks: ["index", "wzory-doc"],
+      filename: "wzory-doc.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/zadania.html",
+      inject: true,
+      chunks: ["index", "zadania"],
+      filename: "zadania.html",
     }),
   ],
 };
