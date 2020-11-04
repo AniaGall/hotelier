@@ -1,9 +1,20 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Poly&display=swap');
+
 @import "_variables";
-@import "modules/hello.scss";
+
+@import "modules/index.scss";
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 body {
   background: #fff;
-  color: rgb(0, 0, 0);
+  font-family: Poly;
+  color: $black;
+  margin: 10px auto;
 }
+

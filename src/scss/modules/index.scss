@@ -1,0 +1,43 @@
+.box {
+  background: $violet;
+  color: $black;
+  
+  overflow: auto;
+  text-align: center;
+  margin: 10px auto;
+  width: 533px;
+  height: 300px;
+  border-style: solid;
+  top: 50%;
+
+}
+.header {
+  background: $blue;
+  text-align: center;
+  border-style: solid;
+  margin: 0 auto;
+  max-width: 1066px;
+  &__nav {
+  }
+  &__text {
+    color: $black;
+    font-size: 36px;
+    padding: 40px 120px;
+  }
+}
+.footer {
+  max-width: 1066px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.navigation {
+  max-width: 1066px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 533px 533px;
+  &__link {
+    color: $black;
+    font-size: 32px;
+   
+  }
+}

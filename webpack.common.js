@@ -89,12 +89,6 @@ module.exports = {
       filename: "definicje.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/galeria.html",
-      inject: true,
-      chunks: ["index", "galeria"],
-      filename: "galeria.html",
-    }),
-    new HtmlWebpackPlugin({
       template: "./src/pages/np-dok.html",
       inject: true,
       chunks: ["index", "np-dok"],
