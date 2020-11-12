@@ -89,10 +89,10 @@ module.exports = {
       filename: "definicje.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/np-dok.html",
+      template: "./src/pages/dok.html",
       inject: true,
-      chunks: ["index", "np-dok"],
-      filename: "np-dok.html",
+      chunks: ["index", "dok"],
+      filename: "dok.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/pages/testy.html",
@@ -101,10 +101,10 @@ module.exports = {
       filename: "testy.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/wzory-doc.html",
+      template: "./src/pages/galeria.html",
       inject: true,
-      chunks: ["index", "wzory-doc"],
-      filename: "wzory-doc.html",
+      chunks: ["index", "galeria"],
+      filename: "galeria.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/pages/zadania.html",

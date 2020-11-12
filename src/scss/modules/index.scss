@@ -1,7 +1,6 @@
 .box {
   background: $violet;
   color: $black;
-  
   overflow: auto;
   text-align: center;
   margin: 10px auto;
@@ -9,6 +8,13 @@
   height: 300px;
   border-style: solid;
   top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__paragraph {
+    margin: 0;
+
+  }
 
 }
 .header {
@@ -35,9 +41,21 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 533px 533px;
+  &__to {
+    color: $violet;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+  }
   &__link {
     color: $black;
     font-size: 32px;
-   
+  } 
+  &__link-to {
+    color: $violet;
+    font-size: 16px;
+    display: inline;
+    padding: 24px;
   }
 }
