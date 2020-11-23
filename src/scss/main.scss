@@ -1,6 +1,6 @@
 @import "~normalize.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Poly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
 
 @import "_variables";
 
@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  background: #fff;
-  font-family: Poly;
+  background: $gray;
+  font-family: Nunito Sans;
   color: $black;
   margin: 10px auto;
 }

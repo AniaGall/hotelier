@@ -36,6 +36,11 @@
   margin: 0 auto;
   font-size: 30px;
 }
+
+.main {
+  max-width: 1066px;
+  margin: 0 auto;
+}
 .navigation {
   max-width: 1066px;
   margin: 0 auto;
@@ -58,4 +63,22 @@
     display: inline;
     padding: 24px;
   }
+}
+
+.texts {
+  line-height: 1.4em;
+  text-align: justify;
+  max-width: 1066px;
+  margin: 0 auto;
+
+}
+.title {
+  color: $rose;
+  font-weight: bold;
+
+}
+
+.subtitle {
+  color: $darkViolet;
+  font-weight: bold;
 }
